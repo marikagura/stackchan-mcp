@@ -1,3 +1,18 @@
+> **About this fork / 关于本 fork**
+>
+> This fork carries five upstream pull requests (kisaragi-mochi/stackchan-mcp
+> #354–#358: on-screen captions, BMI270 IMU access, command-queue watchdog,
+> ws session id, avatar authoring notes) and serves as a prebuilt firmware
+> source for [kimito-stackchan](https://github.com/marikagura/kimito-stackchan)
+> until they merge. Once all PRs land, this fork will be deleted — use stock
+> upstream from then on. No other changes live here.
+>
+> 本 fork 只为承载五个上游 PR（#354–#358：屏幕字幕、BMI270 IMU、指令队列
+> 看门狗、ws session id、avatar 创作笔记），并在合并前充当
+> [kimito-stackchan](https://github.com/marikagura/kimito-stackchan)
+> 的固件构建源。PR 全部合并后本 fork 即删除，届时请直接使用官方上游。
+> 此外无任何改动。
+
 **English** | [日本語](README.ja.md)
 
 # stackchan-mcp
