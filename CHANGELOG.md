@@ -30,8 +30,18 @@ documented-only.
 
 ## [Unreleased]
 
+### Docs
+
+- Added avatar authoring notes (`docs/avatar-authoring-notes.md`):
+  frame-geometry consistency, full-frame exports from layered sources,
+  the avatar-set fetch window, and blink cadence tuning.
+
 ### Gateway
 
+- `get_status` now reports the WebSocket `session_id` alongside the
+  connection flags. The id changes on every (re)connection, so a polling
+  host can detect a device reboot even when the reconnect lands between
+  polls and `connected` never reads false.
 - Added an `imu_read` tool relaying to the new `self.imu.read` device tool
   for polling the built-in accelerometer and its recent-window motion
   statistics.
